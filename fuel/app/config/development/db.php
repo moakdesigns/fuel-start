@@ -9,8 +9,8 @@ return array(
 		'connection'  => array(
 			'hostname' => 'localhost',
 			'database' => 'v_fuelstart',
-			'username' => 'admin',
-			'password' => 'pass',
+			'username' => 'root',
+			'password' => 'snc2014',
 		),
 		'table_prefix' => 'ws_',
 		'charset' => 'utf8',
