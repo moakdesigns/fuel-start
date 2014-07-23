@@ -30,6 +30,7 @@ class Controller_Admin_Index extends \Controller_AdminController
         $output['total_accounts'] = \Model_Accounts::count();
 
         // <head> output ----------------------------------------------------------------------------------------------
+		// config file location: /app/lang/en/admin.php
         $output['page_title'] = $this->generateTitle(\Lang::get('admin_administrator_dashbord'));
         // <head> output ----------------------------------------------------------------------------------------------
 
